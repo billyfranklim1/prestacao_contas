@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "config:base",
+    "docker:enableMajor",
+    "default:pinDigestsDisabled"
+  ],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "automergeType": "branch",
+  "packageRules": [
+    {
+      "packagePatterns": ["^eslint"],
+      "groupName": "eslint"
+    },
+    {
+      "packagePatterns": ["^rollup"],
+      "groupName": "rollup"
+    },
+    {
+      "packagePatterns": ["^vue"],
+      "groupName": "vue"
+    }
+  ]
+}

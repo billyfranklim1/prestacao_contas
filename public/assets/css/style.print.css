@@ -1,0 +1,73 @@
+@charset "iso-8859-1";
+/* CSS Document */
+p{
+	margin: 0 0 0 0;
+}
+br {
+	margin: 0 0 0 0;
+}
+.pagina {
+    page-break-after: always;
+}
+
+.titulo_pagina {
+	font-family: tahoma, verdana;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bolder;
+	color: #000000;
+}
+.endereco_seij_topo {
+	font-family: tahoma, verdana;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #666666;
+}
+.rodape {
+	font-family: Tahoma, Arial;
+	font-size: 7pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.rodape_assinatura {
+	font-family: Tahoma, Arial;
+	font-size: 7pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	background-image:url(http://www.seijnet.com.br/unidades/images/jmpontin_assinatura.png) !important;
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.nota_texto {
+	text-align:justify !important;
+	font-family: Tahoma, Arial !important;
+	font-size: 8.5pt !important;
+	line-height: 12pt !important;
+	font-weight: normal !important;
+	color: #000000 !important;
+}
+.nota_data {
+	font-family: Tahoma, Arial;
+	font-size: 9pt;
+	line-height: 10pt;
+	font-weight: bold;
+	color: #000000;
+}
+.nota_dados {
+	font-family: Tahoma, Arial;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #000000;
+}.linha_topo {
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #000000;
+}
